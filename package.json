@@ -1,0 +1,28 @@
+{
+  "name": "yt_tags_generator",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "PORT=5000 next dev",
+    "build": "next build",
+    "deploy": "next build && next export && npx gh-pages -d out",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security",
+    "gray-matter": "^4.0.3",
+    "next": "13.4.12",
+    "path": "^0.12.7",
+    "primeflex": "^3.3.1",
+    "primeicons": "^6.0.1",
+    "primereact": "^9.6.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-markdown": "^8.0.7"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
