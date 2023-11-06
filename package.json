@@ -13,7 +13,7 @@
     "url": "https://github.com/rodrigozan/zantube_tags_generator"
   },
   "scripts": {
-    "dev": "PORT=5000 next dev",
+    "dev": "next dev",
     "build": "next build",
     "deploy": "next build && next export && npx gh-pages -d docs",
     "start": "next start",
