@@ -1,7 +1,17 @@
 {
-  "name": "yt_tags_generator",
+  "name": "zantube_tags_generator",
+  "description":"A project that use React and Nextjs for consume the YouTube API and return the best tags for your video, based on the video title",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Rodrigo Zan"
+    "email": "rodrigo.zandonadi.dev@gmail.com",
+    "url": "https://medium.com/code-write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rodrigozan/zantube_tags_generator"
+  },
   "scripts": {
     "dev": "PORT=5000 next dev",
     "build": "next build",
@@ -24,5 +34,11 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
+  },
+  {
+  "bugs": {
+    "url": "https://github.com/rodrigozan/zantube_tags_generator/issues",
+    "email": "rodrigo.zandonadi.dev@gmail.com"
   }
+}
 }
