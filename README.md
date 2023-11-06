@@ -11,7 +11,7 @@ For use this project:
 git clone https://github.com/rodrigozan/zantube_tags_generator.git
 ```
 
-- enter in project direct
+- enter the project directorynroject direct
 
 ```bash
 mkdir zantube_tags_generator
