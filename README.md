@@ -19,7 +19,7 @@ git clone https://github.com/rodrigozan/zantube_tags_generator.git
 mkdir zantube_tags_generator
 ```
 
-- create your .env with your `NEXT_PUBLIC_YOUTUBE_API_KEY` variable with your YouTube API Key
+- create your _.env_ with your `NEXT_PUBLIC_YOUTUBE_API_KEY` variable with your YouTube API Key
   
 - run:
 
