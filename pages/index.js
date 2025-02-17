@@ -7,6 +7,9 @@ import { Divider } from 'primereact/divider';
 import { Chip } from 'primereact/chip';
 import { Message } from 'primereact/message';
 
+import HeaderAd from '@/components/header_ad/HeaderAd';
+import SidebarAd from '@/components/sidebar_ad/SidebarAd';
+
 const IndexPage = () => {
   const [hideScrollbar, setHideScrollbar] = useState(false);
   const [keyword, setKeyword] = useState('');
@@ -81,15 +84,15 @@ const IndexPage = () => {
   };
 
   return (
-    <main style={{ height: '100vh', width: '100%' }} className="flex align-items-center justify-content-center">
-      <div className="grid grid-nogutter surface-0 text-800">
+    <main style={{ height: '100vh' }} className="flex align-items-center w-full">
+      <div className="grid grid-nogutter surface-0 text-800 w-full">        
         <div className="col-12 text-center p-8">
-          <h1 className='text-primary'>YouTube Video Tags Generator</h1>
+          <h1 className='text-primary'>YouTube Keywords Generator</h1>
           <form onSubmit={handleSubmit}>
             <div className="flex flex-column gap-2 my-5">
               <InputText placeholder="Keyword" value={keyword} onClick={handleInputClick} onChange={handleChange} className="w-full" />
               <small id="username-help">
-                Enter your title or your keyword and click in bellow button for generate your YouTube Video Tags
+                Enter your title or your keyword and click in bellow button for generate your YouTube Keywords
               </small>
               <div className="card flex justify-content-center">
                 {alert && <Message className="w-full" severity="error" text="It's was possible find tags for this keyword" />}
